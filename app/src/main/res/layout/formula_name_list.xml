@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:background="#1470da"
+        android:layout_margin="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/voltage"
+                android:id="@+id/textView1"
+                android:background="#1470da"
+                android:clickable="true"
+                android:textStyle="bold"
+                android:focusable="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textAlignment="center"
+                android:singleLine="true"
+                android:gravity="center|fill_horizontal"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/frequency"
+            android:id="@+id/textView2"
+            android:background="#1470da"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:gravity="center|fill_horizontal"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:nestedScrollingEnabled="false"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/power"
+            android:id="@+id/textView3"
+            android:background="#1470da"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:gravity="center|fill_horizontal"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/power_voltage"
+            android:id="@+id/textView4"
+            android:background="#1470da"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:gravity="center|fill_horizontal"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.20"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/power_current"
+            android:id="@+id/textView5"
+            android:background="#1470da"
+            android:clickable="true"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_display_2_material"
+            android:textAlignment="center"
+            android:singleLine="true"
+            android:gravity="center|fill_horizontal"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</FrameLayout>
+
+</LinearLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Formulae</string>
+    <string name="voltage">V = IR</string>
+    <string name="power">P = VI</string>
+    <string name="power_current">P = I\u00B2R</string>
+    <string name="power_voltage">P = V\u00B2/R</string>
+    <string name="frequency">F=1/2π\u221ALC</string>
 </resources>
