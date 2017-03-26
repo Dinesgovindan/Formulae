@@ -1,4 +1,5 @@
 <resources>
+    <string name="default">Loading :)</string>
     <string name="app_name">Formulae</string>
     <string name="voltage">V = IR</string>
     <string name="power">P = VI</string>

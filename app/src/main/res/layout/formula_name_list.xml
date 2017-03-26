@@ -39,8 +39,8 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="@string/frequency"
-            android:id="@+id/textView2"
+            android:text="@string/default"
+            android:id="@+id/single_formula_view"
             android:background="@color/blue"
             android:clickable="true"
             android:textStyle="bold"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="frequency">
+        <item>Frequency(f)</item>
+        <item>Inductor(L)</item>
+        <item>Capacitor(C)</item>
+    </string-array>
+    <string-array name="voltage">
+        <item>Voltage(V)</item>
+        <item>Current(I)</item>
+        <item>Resistor(R)</item>
+    </string-array>
+    <string-array name="power">
+        <item>Power(P)</item>
+        <item>Voltage(V)</item>
+        <item>Current(I)</item>
+    </string-array>
+    <string-array name="power_voltage">
+        <item>Power(P)</item>
+        <item>Voltage(V)</item>
+        <item>Resistor(R)</item>
+    </string-array>
+    <string-array name="power_current">
+        <item>Power(P)</item>
+        <item>Current(I)</item>
+        <item>Resistor(R)</item>
+    </string-array>
+</resources>
