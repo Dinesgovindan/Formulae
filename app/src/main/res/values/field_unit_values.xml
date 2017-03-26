@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Frequency(f)">Hz<string/>
+    <string name="Inductor(L)">Hendry<string/>
+    <string name="Capacitor(C)">Farad<string/>
+    <string name="Voltage(V)">Volts<string/>
+    <string name="Current(I)">Ampere<string/>
+    <string name="Resistor(R)">Ohm<string/>
+    <string name="Power(P)">Watts<string/>
+</resources>
