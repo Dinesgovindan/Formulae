@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:text="@string/default"
+            android:text="@string/default_str"
             android:id="@+id/single_formula_view"
             android:background="@color/blue"
             android:clickable="true"
@@ -59,6 +59,5 @@
             android:textColor="@color/white"
             android:focusableInTouchMode="false"
             android:background="@color/blue" />
-    </FrameLayout>">
-        </FrameLayout>
+    </FrameLayout>
 </LinearLayout>

@@ -11,7 +11,9 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.20"
         android:background="@color/blue"
-        android:layout_margin="10dp">
+        android:layout_margin="10dp"
+        android:nestedScrollingEnabled="false"
+        android:onClick="populate_frequency">
 
         <TextView
                 android:layout_width="wrap_content"
@@ -50,7 +52,8 @@
             android:textAlignment="center"
             android:singleLine="true"
             android:gravity="center|fill_horizontal"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:onClick="populate_voltage" />
 
     </FrameLayout>
 
@@ -74,7 +77,8 @@
             android:textAlignment="center"
             android:singleLine="true"
             android:gravity="center|fill_horizontal"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:onClick="populate_power" />
     </FrameLayout>
 
     <FrameLayout
@@ -96,7 +100,8 @@
             android:textAlignment="center"
             android:singleLine="true"
             android:gravity="center|fill_horizontal"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:onClick="populate_power_volt" />
     </FrameLayout>
 
     <FrameLayout
@@ -118,8 +123,8 @@
             android:textAlignment="center"
             android:singleLine="true"
             android:gravity="center|fill_horizontal"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            android:onClick="populate_power_current" />
     </FrameLayout>
-</FrameLayout>
 
 </LinearLayout>
