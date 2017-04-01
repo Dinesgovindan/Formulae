@@ -12,8 +12,7 @@
         android:layout_weight="0.20"
         android:background="@color/blue"
         android:layout_margin="10dp"
-        android:nestedScrollingEnabled="false"
-        android:onClick="populate_frequency">
+        android:nestedScrollingEnabled="false">
 
         <TextView
                 android:layout_width="wrap_content"
@@ -29,7 +28,8 @@
                 android:textAlignment="center"
                 android:singleLine="true"
                 android:gravity="center|fill_horizontal"
-                android:layout_gravity="center" />
+                android:layout_gravity="center"
+                android:onClick="populate_frequency"/>
         </FrameLayout>
 
 
