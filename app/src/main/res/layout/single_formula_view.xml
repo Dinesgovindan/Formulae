@@ -31,21 +31,6 @@
         android:layout_weight="0.50"
         android:layout_margin="10dp">
 
-        <Spinner
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/formula_fields"
-            android:spinnerMode="dropdown"
-            android:textAlignment="center"
-            android:touchscreenBlocksFocus="true"
-            android:layout_margin="30dp"
-            android:contextClickable="true"
-            android:dropDownWidth="match_parent"
-            android:focusableInTouchMode="false"
-            android:layout_gravity="top"
-            android:background="@color/blue"
-            android:focusable="true" />
-
         <Button
             style="?android:attr/buttonStyleSmall"
             android:layout_width="148dp"
@@ -60,5 +45,20 @@
             android:textColor="@color/white"
             android:focusableInTouchMode="false"
             android:background="@color/blue" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/formula_fields"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center"
+                android:touchscreenBlocksFocus="true"
+                android:layout_margin="30dp"
+                android:contextClickable="true"
+                android:dropDownWidth="match_parent"
+                android:focusableInTouchMode="false"
+                android:background="@color/blue"
+                android:scrollIndicators="top"
+                android:layout_gravity="top"/>
     </FrameLayout>
 </LinearLayout>

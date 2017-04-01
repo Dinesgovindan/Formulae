@@ -50,7 +50,7 @@ public class FormulaActivity extends AppCompatActivity {
         //set formula drop down
         formula_fields = (Spinner)findViewById(R.id.formula_fields);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                array_id, android.R.layout.simple_spinner_item);
+                array_id, R.layout.spinner_layout);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         formula_fields.setAdapter(adapter);
 
